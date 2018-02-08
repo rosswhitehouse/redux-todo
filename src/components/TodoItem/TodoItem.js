@@ -1,11 +1,7 @@
 import React from 'react';
 
-class TodoItem extends React.Component {
-    render() {
-      return (
-        <li>Hello</li>
-      );
-    }
-  }
+function TodoItem (props) {
+    return <li>{props.todo}</li>
+}
 
 export default TodoItem;
